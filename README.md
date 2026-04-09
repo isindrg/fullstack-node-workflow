@@ -34,8 +34,11 @@ VectorShift Node Workflow is an interactive pipeline builder that enables users 
 
 ## Results
 •**10+ Node Types** - Rapidly deployable with BaseNode abstraction
+
 •**Real-time Rendering** - ReactFlow canvas with smooth interactions
+
 •**DAG Validation** - O(V+E) cycle detection algorithm on backend
+
 •**Dynamic UI Updates** - Text node resizes based on content
 
 # DEMO
