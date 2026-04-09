@@ -18,19 +18,19 @@ VectorShift Node Workflow is an interactive pipeline builder that enables users 
 ## Files
 
 ### Frontend
- **App.js** - Main React component and canvas orchestration
- **store.js** - State management for nodes, edges, and workflow data
- **BaseNode.js** - Reusable node abstraction for rapid node creation
- **submit.js** - Handles pipeline submission to backend API
- **draggableNode.js** - Drag and drop functionality
- **toolbar.js** - UI toolbar and controls
- **ui.js** - Utility functions and helpers
- **nodes/** - Individual node implementations (Input, Output, Math, Filter, Concat, HTTP, LLM, Debug, Text)
- **styles/** - CSS styling (app.css, nodes.css, toolbar.css, ui.css, submit.css)
+1. **App.js** - Main React component and canvas orchestration
+2. **store.js** - State management for nodes, edges, and workflow data
+3. **BaseNode.js** - Reusable node abstraction for rapid node creation
+4. **submit.js** - Handles pipeline submission to backend API
+5. **draggableNode.js** - Drag and drop functionality
+6. **toolbar.js** - UI toolbar and controls
+7. **ui.js** - Utility functions and helpers
+8. **nodes/** - Individual node implementations (Input, Output, Math, Filter, Concat, HTTP, LLM, Debug, Text)
+9. **styles/** - CSS styling (app.css, nodes.css, toolbar.css, ui.css, submit.css)
 
 ### Backend
- **main.py** - FastAPI server with `/pipelines/parse` endpoint
- **requirements.txt** - Python dependencies
+1. **main.py** - FastAPI server with `/pipelines/parse` endpoint
+2. **requirements.txt** - Python dependencies
 
 ## Results
 **10+ Node Types** - Rapidly deployable with BaseNode abstraction
